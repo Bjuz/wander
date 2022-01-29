@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Wanderlust Costa Rica</title>
+
+  <!-- Bootstrap -->
+  <link rel="shortcut icon" href="img/Iconos/favicon.png">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="stylesheet" href="css/jquery.bxslider.css">
+  <link rel="stylesheet" href="css/jquery.bxslider.css">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+  <link rel="stylesheet" type="text/css" href="css/demo.css" />
+  <link rel="stylesheet" type="text/css" href="css/set1.css" /> 
+  <link href="css/overwrite.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+   <link rel="stylesheet" type="text/css" href="css/Chat.css" />
+
+</head>
+
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse.collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html"><span>The Wanderlust CR</span></a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <div class="menu">
+            <ul class="nav nav-tabs" role="tablist">
+              <li role="presentation" ><a href="index.html">Home</a></li>
+              <li role="presentation" class="active"><a href="services.html">Services</a></li>
+              <li role="presentation"><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="service">
+        <div class="col-md-6 col-md-offset-3">
+          <div class="text-center">
+           <h2>Discover Costa Rica</h2>
+          <p>Discover the best of our contry, coffee, volcanos, beaches, animals and more</p>
+          </div>
+          <hr>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="services">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+
+          <div class="wow bounceIn" data-wow-offset="0" data-wow-delay="0.4s">
+           <button  class="btnSinFondo" onclick="Trasnport()">
+              <h4>Transport</h4>
+            <div class="icon">
+              <img src="img/Iconos/bus.png">
+            </div>
+            <p>Transportation around Costa Rica</p>
+            <div class="ficon">
+            </div>
+           </button>        
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="wow bounceIn" data-wow-offset="0" data-wow-delay="1.0s">
+            <button class="btnSinFondo" onclick="inicio()">
+             <h4>Tours</h4>
+            <div class="icon">
+              <img src="img/Iconos/buceo.png">
+            </div>
+            <p>One day and half day tours</p>
+            <div class="ficon">
+            </div>
+          </button>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="wow bounceIn" data-wow-offset="0" data-wow-delay="1.6s">
+            <button class="btnSinFondo" onclick="rentACar()">
+             <h4>Rent a car</h4>
+            <div class="icon">
+              <img src="img/Iconos/coche.png">
+            </div>
+            <p>Rent a car and take it all over the country</p>
+            <div class="ficon">
+            </div>
+          </button>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="wow bounceIn" data-wow-offset="0" data-wow-delay="2.2s">
+            <button class="btnSinFondo" onclick="Pack()">
+             <h4>Tourist packages</h4>
+            <div class="icon">
+              <img src="img/Iconos/Paquete.png">
+            </div>
+            <p>Visit all of Costa Rica at the best price</p>
+            <div class="ficon">
+            </div>
+          </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div id="Transport"></div>
+
+
+  <div class="container">
+    <div class="row">
+      <div class="grid">
+        <div id="aqui" class="aqui" >
+          <div  id="Tours">
+            <!-- Aqui --> 
+            <div class="content">
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                  <div class="text-center">
+                    <h2>One and Half day tours</h2>
+          
+                      <p>
+                        <br>4% Value Added Taxes (VAT), must be summed up to all rates <br> From July 2021 to July 2022<br><strong>Click the name to see more information<strong>.
+                    </p>
+                  </div>
+                  <hr>
+                </div>
+              </div>
+            </div>
+            <div class="content">
+              <div class="row">
+                <div class="grid">
+                    <figure class="effect-zoe respFig">
+                    <img class="imgres" src="img/6-in-1/6 in 1.jpg" alt="img25" />
+                    <figcaption class="respFig">
+                      <h2> <span><a href="#aqui"  id="prueba"> 6 in 1</a></span></h2>
+                      <p class="icon-links">$139 pp</p>
+                    </figcaption>
+                  </figure>
+                  
+                
+                  <figure class="effect-zoe">
+                    <img src="img/city bus.jpg" alt="img26" />
+                    <figcaption>
+                      <h2><span> <a href="#">Vip City Bus</a></span></h2>
+                      <p class="icon-links">$69 pp</p>
+                    </figcaption>
+                  </figure>
+                  
+                </div>
+              </div>
+          </div>
+          <div class="content">
+            <div class="row">
+              <div class="grid">
+                
+                  <figure class="effect-zoe">
+                  <img src="img/coffe tour.jpg" alt="img25" />
+                  <figcaption>
+                    <h2> <span><a href="#">Coffee Tour</a></span></h2>
+                    <p class="icon-links">$59 - $55 pp</p>
+                  </figcaption>
+                </figure>
+                
+              
+                <figure class="effect-zoe">
+                  <img src="img/poas-volcano-doka-grecia-sarchi.jpg" alt="img26" />
+                  <figcaption>
+                    <h2><span> <a href="#">Poas,Doka,Grecia</a></span></h2>
+                    <p class="icon-links">$67 pp</p>
+                  </figcaption>
+                </figure>
+                
+              </div>
+            </div>
+          </div>
+            <div class="content">
+              <div class="row">
+                <div class="grid">
+                  
+                    <figure class="effect-zoe">
+                    <img src="img/Manuel Antonio na.jpg" alt="img25" />
+                    <figcaption>
+                      <h2> <span><a href="#">Manuel Antonio</a></span></h2>
+                      <p class="icon-links">$135 pp</p>
+                    </figcaption>
+                  </figure>
+                  
+                
+                  <figure class="effect-zoe">
+                    <img src="img/Irazu-Volcano-Orosi-Valley-Lankester-Garden.jpg" alt="img26" />
+                    <figcaption>
+                      <h2><span> <a href="#">Irazú,Orosi,Lankaster</a></span></h2>
+                      <p class="icon-links">$112 pp</p>
+                    </figcaption>
+                  </figure>
+                  
+                </div>
+              </div>
+          </div>
+          <div class="content">
+            <div class="row">
+              <div class="grid">
+                
+                  <figure class="effect-zoe">
+                  <img src="img/Isla tortuga.jpg" alt="img25" />
+                  <figcaption>
+                    <h2> <span><a href="#">Tortuga Island Cruise</a></span></h2>
+                    <p class="icon-links">$135 pp</p>
+                  </figcaption>
+                </figure>
+                
+              
+                <figure class="effect-zoe">
+                  <img src="img/Dinner.jpg" alt="img26" />
+                  <figcaption>
+                    <h2><span> <a href="#">Folklore Dinner Show</a></span></h2>
+                    <p class="icon-links">$70 pp</p>
+                  </figcaption>
+                </figure>
+                
+              </div>
+            </div>
+          </div>
+          <div class="content">
+            <div class="row">
+              <div class="grid">
+                  <figure class="effect-zoe">
+                  <img src="img/Tortuguero.jpg" alt="img25" />
+                  <figcaption>
+                    <h2> <span><a href="#"> Tortuguero NP</a></span></h2>
+                    <p class="icon-links">$140 pp</p>
+                  </figcaption>
+                </figure>
+                
+              
+                <figure class="effect-zoe">
+                  <img src="img/Tram/Tram.jpg" alt="img26" />
+                  <figcaption>
+                    <h2><span> <a href="#">Rainforest Aerial Tram</a></span></h2>
+                    <p class="icon-links">$107 pp</p>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+          </div>
+          <div class="content">
+            <div class="row">
+              <div class="grid">
+                  <figure class="effect-zoe">
+                  <img src="img/Arenal TB.jpg" alt="img25" />
+                  <figcaption>
+                    <h2> <span><a href="#"> Arenal & Hot springs</a></span></h2>
+                    <p class="icon-links">$162 pp</p>
+                  </figcaption>
+                </figure>
+                
+              
+                <figure class="effect-zoe">
+                  <img src="img/Pacuare/Pacuare.jpg" alt="img26" />
+                  <figcaption>
+                    <h2><span> <a href="#"> Rafting Pacuare River</a></span></h2>
+                    <p class="icon-links">$99 pp</p>
+                  </figcaption>
+                </figure>
+                
+              </div>
+            </div>
+          </div>
+          <div class="content">
+            <div class="row">
+              <div class="grid">
+                
+                  <figure class="effect-zoe">
+                  <img src="img/combo.jpg" alt="img25" />
+                  <figcaption>
+                    <h2> <span><a href="#"> Combo Tour</a></span></h2>
+                    <p class="icon-links">$149 pp</p>
+                  </figcaption>
+                </figure>
+                
+              
+                <figure class="effect-zoe">
+                  <img src="img/Canopy/Canopy.jpg" alt="img26" />
+                  <figcaption>
+                    <h2><span> <a href="#">Rainforest canopy</a></span></h2>
+                    <p class="icon-links">$96 pp</p>
+                  </figcaption>
+                </figure>
+                
+              </div>
+            </div>
+          </div>
+            <!--Aqui -->
+          </div>  
+          <div  id="trans">
+            <!--Aqui-->
+            <!--Aqui-->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+ 
+
+   
+
+      <div id="live-chat">
+    
+    <header class="clearfix">
+      
+      
+
+      <h4 class="ChatName">Wanderlust Costa Rica</h4>
+
+      <span class="chat-message-counter">1</span>
+
+    </header>
+
+    <div class="chat">
+      
+      <div class="chat-history">
+        
+        <div class="chat-message clearfix">
+          
+          <img src="http://gravatar.com/avatar/2c0ad52fc5943b78d6abe069cc08f320?s=32" alt="" width="32" height="32">
+
+          <div class="chat-message-content clearfix">
+            
+            <span class="chat-time"></span>
+
+            <h5>Wanderlust Costa Rica</h5>
+
+            <p>Hello👋 </p>  
+            <p>How can I help you? </p>
+          </div> <!-- end chat-message-content -->
+
+        </div> <!-- end chat-message -->
+
+      </div> <!-- end chat-history -->
+
+      <form action="#" method="post" id="FormChat">
+
+        <fieldset>
+          <div id="btnChat" class="btnChat">
+          <input id="mensaje" type="text" class="imp" placeholder="Enter para enviar" autofocus>
+          </div>
+          
+          <input type="hidden">
+
+        </fieldset>
+
+      </form>
+
+    </div> <!-- end chat -->
+
+  </div> <!-- end live-chat -->
+
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="js/jquery-2.1.1.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.isotope.min.js"></script>
+  <script src="js/jquery.bxslider.min.js"></script>
+  <script type="text/javascript" src="js/fliplightbox.min.js"></script>
+  <script src="js/functions.js"></script>
+    <script src="js/Chat.js"></script>
+  <script src="js/Chat2.js"></script>
+  <script type="text/javascript">
+    $('.portfolio').flipLightBox()
+  </script>
+<script type="text/javascript" src="js/opera.js"></script>
+
+
+</body>
+ <footer>
+  <div class="inner-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 f-contact">
+          <h3 class="widgetheading">Contact Us</h3>
+          <a href="mailto:info@thewanderlustcr.com">
+            <p><i class="fa fa-envelope"></i> info@thewanderlustcr.com</p>
+          </a>
+          <a href="https://www.facebook.com/qr/4694313090628074">
+            <p><i class="fa fa-facebook"></i> Wanderlust Costa Rica</p>
+          </a>
+          <a href="https://instagram.com/wanderlust_costa_rica?utm_medium=copy_link">
+            <p><i class="fa fa-instagram"></i> wanderlust_costa_rica</p>
+          </a>
+          <a href="https://wa.me/50661672539">
+            <p><i class="fa fa-phone"></i> +506 6167 2539</p>
+          </a>
+        </div>
+      </div>
+    </div>
+</div>
+    <div class="last-div">
+      <div class="container">
+        <div class="row">
+          <div class="copyright">
+            <a href="https://www.watermenuscr.com"> &copy; Watermenus All Rights Reserved</a>
+          </div>
+        </div>
+      </div>
+     
+
+
+
+
+    </div>
+  </footer>
+
+
+</html>
